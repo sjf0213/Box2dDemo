@@ -150,6 +150,6 @@ struct b2Version
 };
 
 /// Current version.
-extern b2Version b2_version;
+extern struct b2Version b2_version;
 
 #endif

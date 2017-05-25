@@ -123,6 +123,20 @@
 		F0B081DB1ED6E14B0019D641 /* TGAlib.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B081971ED6E14B0019D641 /* TGAlib.m */; };
 		F0B081DC1ED6E14B0019D641 /* ZipUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B0819B1ED6E14B0019D641 /* ZipUtils.m */; };
 		F0B081DF1ED6E3B00019D641 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B081DE1ED6E3B00019D641 /* libz.tbd */; };
+		F0B081EB1ED6E9080019D641 /* GravityScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B081EA1ED6E9080019D641 /* GravityScene.m */; };
+		F0B082131ED71E400019D641 /* CCActionProgressTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B081F51ED71E400019D641 /* CCActionProgressTimer.m */; };
+		F0B082141ED71E400019D641 /* CCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B081F71ED71E400019D641 /* CCButton.m */; };
+		F0B082151ED71E400019D641 /* CCControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B081F91ED71E400019D641 /* CCControl.m */; };
+		F0B082161ED71E400019D641 /* CCControlTextureFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B081FC1ED71E400019D641 /* CCControlTextureFactory.m */; };
+		F0B082171ED71E400019D641 /* CCPotentiometer.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B081FE1ED71E400019D641 /* CCPotentiometer.m */; };
+		F0B082181ED71E400019D641 /* CCProgressNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B082001ED71E400019D641 /* CCProgressNode.m */; };
+		F0B082191ED71E400019D641 /* CCScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B082021ED71E400019D641 /* CCScrollView.m */; };
+		F0B0821A1ED71E400019D641 /* CCSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B082041ED71E400019D641 /* CCSlider.m */; };
+		F0B0821B1ED71E400019D641 /* CCTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B082061ED71E400019D641 /* CCTableView.m */; };
+		F0B0821C1ED71E400019D641 /* CCTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B082081ED71E400019D641 /* CCTextField.m */; };
+		F0B0821D1ED71E400019D641 /* CCPlatformTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B0820C1ED71E400019D641 /* CCPlatformTextField.m */; };
+		F0B0821E1ED71E400019D641 /* CCPlatformTextFieldIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B0820F1ED71E400019D641 /* CCPlatformTextFieldIOS.m */; };
+		F0B0821F1ED71E400019D641 /* CCPlatformTextFieldMac.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B082121ED71E400019D641 /* CCPlatformTextFieldMac.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -368,6 +382,36 @@
 		F0B0819A1ED6E14B0019D641 /* ZipUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipUtils.h; sourceTree = "<group>"; };
 		F0B0819B1ED6E14B0019D641 /* ZipUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZipUtils.m; sourceTree = "<group>"; };
 		F0B081DE1ED6E3B00019D641 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F0B081E91ED6E9080019D641 /* GravityScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravityScene.h; sourceTree = "<group>"; };
+		F0B081EA1ED6E9080019D641 /* GravityScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravityScene.m; sourceTree = "<group>"; };
+		F0B081F41ED71E400019D641 /* CCActionProgressTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCActionProgressTimer.h; sourceTree = "<group>"; };
+		F0B081F51ED71E400019D641 /* CCActionProgressTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCActionProgressTimer.m; sourceTree = "<group>"; };
+		F0B081F61ED71E400019D641 /* CCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCButton.h; sourceTree = "<group>"; };
+		F0B081F71ED71E400019D641 /* CCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCButton.m; sourceTree = "<group>"; };
+		F0B081F81ED71E400019D641 /* CCControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControl.h; sourceTree = "<group>"; };
+		F0B081F91ED71E400019D641 /* CCControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControl.m; sourceTree = "<group>"; };
+		F0B081FA1ED71E400019D641 /* CCControlSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlSubclass.h; sourceTree = "<group>"; };
+		F0B081FB1ED71E400019D641 /* CCControlTextureFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlTextureFactory.h; sourceTree = "<group>"; };
+		F0B081FC1ED71E400019D641 /* CCControlTextureFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControlTextureFactory.m; sourceTree = "<group>"; };
+		F0B081FD1ED71E400019D641 /* CCPotentiometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPotentiometer.h; sourceTree = "<group>"; };
+		F0B081FE1ED71E400019D641 /* CCPotentiometer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPotentiometer.m; sourceTree = "<group>"; };
+		F0B081FF1ED71E400019D641 /* CCProgressNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCProgressNode.h; sourceTree = "<group>"; };
+		F0B082001ED71E400019D641 /* CCProgressNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCProgressNode.m; sourceTree = "<group>"; };
+		F0B082011ED71E400019D641 /* CCScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCScrollView.h; sourceTree = "<group>"; };
+		F0B082021ED71E400019D641 /* CCScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCScrollView.m; sourceTree = "<group>"; };
+		F0B082031ED71E400019D641 /* CCSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSlider.h; sourceTree = "<group>"; };
+		F0B082041ED71E400019D641 /* CCSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSlider.m; sourceTree = "<group>"; };
+		F0B082051ED71E400019D641 /* CCTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTableView.h; sourceTree = "<group>"; };
+		F0B082061ED71E400019D641 /* CCTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTableView.m; sourceTree = "<group>"; };
+		F0B082071ED71E400019D641 /* CCTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTextField.h; sourceTree = "<group>"; };
+		F0B082081ED71E400019D641 /* CCTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTextField.m; sourceTree = "<group>"; };
+		F0B082091ED71E400019D641 /* cocos2d-ui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cocos2d-ui.h"; sourceTree = "<group>"; };
+		F0B0820B1ED71E400019D641 /* CCPlatformTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPlatformTextField.h; sourceTree = "<group>"; };
+		F0B0820C1ED71E400019D641 /* CCPlatformTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPlatformTextField.m; sourceTree = "<group>"; };
+		F0B0820E1ED71E400019D641 /* CCPlatformTextFieldIOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPlatformTextFieldIOS.h; sourceTree = "<group>"; };
+		F0B0820F1ED71E400019D641 /* CCPlatformTextFieldIOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPlatformTextFieldIOS.m; sourceTree = "<group>"; };
+		F0B082111ED71E400019D641 /* CCPlatformTextFieldMac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPlatformTextFieldMac.h; sourceTree = "<group>"; };
+		F0B082121ED71E400019D641 /* CCPlatformTextFieldMac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPlatformTextFieldMac.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -385,6 +429,7 @@
 		F02014101ED6DC3200FA3D51 = {
 			isa = PBXGroup;
 			children = (
+				F0B081F31ED71E400019D641 /* cocos2d-ui */,
 				F0B080781ED6E13C0019D641 /* Box2D */,
 				F0B0810B1ED6E14B0019D641 /* cocos2d */,
 				F020141B1ED6DC3200FA3D51 /* Box2dDemo */,
@@ -405,6 +450,8 @@
 		F020141B1ED6DC3200FA3D51 /* Box2dDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F0B081E91ED6E9080019D641 /* GravityScene.h */,
+				F0B081EA1ED6E9080019D641 /* GravityScene.m */,
 				F020141F1ED6DC3200FA3D51 /* AppDelegate.h */,
 				F02014201ED6DC3200FA3D51 /* AppDelegate.m */,
 				F0B080751ED6DD060019D641 /* MainViewController.h */,
@@ -767,6 +814,65 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F0B081F31ED71E400019D641 /* cocos2d-ui */ = {
+			isa = PBXGroup;
+			children = (
+				F0B081F41ED71E400019D641 /* CCActionProgressTimer.h */,
+				F0B081F51ED71E400019D641 /* CCActionProgressTimer.m */,
+				F0B081F61ED71E400019D641 /* CCButton.h */,
+				F0B081F71ED71E400019D641 /* CCButton.m */,
+				F0B081F81ED71E400019D641 /* CCControl.h */,
+				F0B081F91ED71E400019D641 /* CCControl.m */,
+				F0B081FA1ED71E400019D641 /* CCControlSubclass.h */,
+				F0B081FB1ED71E400019D641 /* CCControlTextureFactory.h */,
+				F0B081FC1ED71E400019D641 /* CCControlTextureFactory.m */,
+				F0B081FD1ED71E400019D641 /* CCPotentiometer.h */,
+				F0B081FE1ED71E400019D641 /* CCPotentiometer.m */,
+				F0B081FF1ED71E400019D641 /* CCProgressNode.h */,
+				F0B082001ED71E400019D641 /* CCProgressNode.m */,
+				F0B082011ED71E400019D641 /* CCScrollView.h */,
+				F0B082021ED71E400019D641 /* CCScrollView.m */,
+				F0B082031ED71E400019D641 /* CCSlider.h */,
+				F0B082041ED71E400019D641 /* CCSlider.m */,
+				F0B082051ED71E400019D641 /* CCTableView.h */,
+				F0B082061ED71E400019D641 /* CCTableView.m */,
+				F0B082071ED71E400019D641 /* CCTextField.h */,
+				F0B082081ED71E400019D641 /* CCTextField.m */,
+				F0B082091ED71E400019D641 /* cocos2d-ui.h */,
+				F0B0820A1ED71E400019D641 /* Platform */,
+			);
+			path = "cocos2d-ui";
+			sourceTree = "<group>";
+		};
+		F0B0820A1ED71E400019D641 /* Platform */ = {
+			isa = PBXGroup;
+			children = (
+				F0B0820B1ED71E400019D641 /* CCPlatformTextField.h */,
+				F0B0820C1ED71E400019D641 /* CCPlatformTextField.m */,
+				F0B0820D1ED71E400019D641 /* iOS */,
+				F0B082101ED71E400019D641 /* Mac */,
+			);
+			path = Platform;
+			sourceTree = "<group>";
+		};
+		F0B0820D1ED71E400019D641 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F0B0820E1ED71E400019D641 /* CCPlatformTextFieldIOS.h */,
+				F0B0820F1ED71E400019D641 /* CCPlatformTextFieldIOS.m */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		F0B082101ED71E400019D641 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				F0B082111ED71E400019D641 /* CCPlatformTextFieldMac.h */,
+				F0B082121ED71E400019D641 /* CCPlatformTextFieldMac.m */,
+			);
+			path = Mac;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -841,15 +947,19 @@
 				F0B080E61ED6E13C0019D641 /* b2CircleShape.cpp in Sources */,
 				F0B081051ED6E13C0019D641 /* b2PulleyJoint.cpp in Sources */,
 				F0B080EB1ED6E13C0019D641 /* b2Math.cpp in Sources */,
+				F0B0821A1ED71E400019D641 /* CCSlider.m in Sources */,
 				F0B080FB1ED6E13C0019D641 /* b2EdgeAndPolygonContact.cpp in Sources */,
+				F0B082141ED71E400019D641 /* CCButton.m in Sources */,
 				F0B080E11ED6E13C0019D641 /* b2Collision.cpp in Sources */,
 				F0B081B91ED6E14B0019D641 /* CCScene.m in Sources */,
 				F0B081BF1ED6E14B0019D641 /* CCSpriteFrame.m in Sources */,
 				F0B081A41ED6E14B0019D641 /* CCAnimationCache.m in Sources */,
 				F0B081011ED6E13C0019D641 /* b2Joint.cpp in Sources */,
 				F0B081AF1ED6E14B0019D641 /* CCNode+Debug.m in Sources */,
+				F0B0821D1ED71E400019D641 /* CCPlatformTextField.m in Sources */,
 				F0B0819D1ED6E14B0019D641 /* CCActionCatmullRom.m in Sources */,
 				F0B080F01ED6E13C0019D641 /* b2ContactManager.cpp in Sources */,
+				F0B082191ED71E400019D641 /* CCScrollView.m in Sources */,
 				F0B080FD1ED6E13C0019D641 /* b2PolygonContact.cpp in Sources */,
 				F02014211ED6DC3200FA3D51 /* AppDelegate.m in Sources */,
 				F0B080E21ED6E13C0019D641 /* b2Distance.cpp in Sources */,
@@ -858,9 +968,12 @@
 				F0B081B11ED6E14B0019D641 /* CCNodeColor.m in Sources */,
 				F0B081A81ED6E14B0019D641 /* CCDrawNode.m in Sources */,
 				F0B080F21ED6E13C0019D641 /* b2Island.cpp in Sources */,
+				F0B0821F1ED71E400019D641 /* CCPlatformTextFieldMac.m in Sources */,
+				F0B082151ED71E400019D641 /* CCControl.m in Sources */,
 				F0B080F41ED6E13C0019D641 /* b2WorldCallbacks.cpp in Sources */,
 				F0B081BE1ED6E14B0019D641 /* CCSpriteBatchNode.m in Sources */,
 				F0B081DB1ED6E14B0019D641 /* TGAlib.m in Sources */,
+				F0B082171ED71E400019D641 /* CCPotentiometer.m in Sources */,
 				F0B080E31ED6E13C0019D641 /* b2DynamicTree.cpp in Sources */,
 				F0B080FA1ED6E13C0019D641 /* b2EdgeAndCircleContact.cpp in Sources */,
 				F0B080E91ED6E13C0019D641 /* b2BlockAllocator.cpp in Sources */,
@@ -874,11 +987,13 @@
 				F0B081CB1ED6E14B0019D641 /* CCMetalView.m in Sources */,
 				F0B081B41ED6E14B0019D641 /* CCRendererBasicTypes.m in Sources */,
 				F0B081BA1ED6E14B0019D641 /* CCScheduler.m in Sources */,
+				F0B0821B1ED71E400019D641 /* CCTableView.m in Sources */,
 				F0B080E81ED6E13C0019D641 /* b2PolygonShape.cpp in Sources */,
 				F0B081D31ED6E14B0019D641 /* CCColor.m in Sources */,
 				F0B081A31ED6E14B0019D641 /* CCAnimation.m in Sources */,
 				F0B080F61ED6E13C0019D641 /* b2ChainAndPolygonContact.cpp in Sources */,
 				F0B080E41ED6E13C0019D641 /* b2TimeOfImpact.cpp in Sources */,
+				F0B0821C1ED71E400019D641 /* CCTextField.m in Sources */,
 				F0B081C41ED6E14B0019D641 /* CCTransition.m in Sources */,
 				F0B080DE1ED6E13C0019D641 /* b2CollideCircle.cpp in Sources */,
 				F0B080ED1ED6E13C0019D641 /* b2StackAllocator.cpp in Sources */,
@@ -894,6 +1009,7 @@
 				F0B081BC1ED6E14B0019D641 /* CCSprite.m in Sources */,
 				F0B081071ED6E13C0019D641 /* b2RopeJoint.cpp in Sources */,
 				F0B081A91ED6E14B0019D641 /* ccFPSImages.m in Sources */,
+				F0B082131ED71E400019D641 /* CCActionProgressTimer.m in Sources */,
 				F0B081B51ED6E14B0019D641 /* CCRendererGLSupport.m in Sources */,
 				F0B081091ED6E13C0019D641 /* b2WheelJoint.cpp in Sources */,
 				F0B0819C1ED6E14B0019D641 /* CCAction.m in Sources */,
@@ -933,13 +1049,16 @@
 				F0B080F31ED6E13C0019D641 /* b2World.cpp in Sources */,
 				F0B081DA1ED6E14B0019D641 /* NSThread+performBlock.m in Sources */,
 				F0B080E01ED6E13C0019D641 /* b2CollidePolygon.cpp in Sources */,
+				F0B082161ED71E400019D641 /* CCControlTextureFactory.m in Sources */,
 				F0B081041ED6E13C0019D641 /* b2PrismaticJoint.cpp in Sources */,
 				F0B080EE1ED6E13C0019D641 /* b2Timer.cpp in Sources */,
+				F0B081EB1ED6E9080019D641 /* GravityScene.m in Sources */,
 				F0B081AA1ED6E14B0019D641 /* CCLabelBMFont.m in Sources */,
 				F0B080FE1ED6E13C0019D641 /* b2DistanceJoint.cpp in Sources */,
 				F0B080EC1ED6E13C0019D641 /* b2Settings.cpp in Sources */,
 				F0B081A71ED6E14B0019D641 /* CCDirector.m in Sources */,
 				F0B081DC1ED6E14B0019D641 /* ZipUtils.m in Sources */,
+				F0B0821E1ED71E400019D641 /* CCPlatformTextFieldIOS.m in Sources */,
 				F0B081A01ED6E14B0019D641 /* CCActionInterval.m in Sources */,
 				F0B081021ED6E13C0019D641 /* b2MotorJoint.cpp in Sources */,
 				F0B080E71ED6E13C0019D641 /* b2EdgeShape.cpp in Sources */,
@@ -950,6 +1069,7 @@
 				F0B081C51ED6E14B0019D641 /* cocos2d.m in Sources */,
 				F0B081D91ED6E14B0019D641 /* NSAttributedString+CCAdditions.m in Sources */,
 				F0B080F91ED6E13C0019D641 /* b2ContactSolver.cpp in Sources */,
+				F0B082181ED71E400019D641 /* CCProgressNode.m in Sources */,
 				F0B0819E1ED6E14B0019D641 /* CCActionEase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

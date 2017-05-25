@@ -29,6 +29,18 @@ inline bool b2IsValid(float32 x)
 	return (ix & 0x7f800000) != 0x7f800000;
 }
 
+//inline bool b2IsValid(float32 x)
+//{
+//    if (x != x)
+//    {
+//        // NaN.
+//        return false;
+//    }
+//    
+//    float32 infinity = std::numeric_limits<float32>::infinity();
+//    return -infinity < x && x < infinity;
+//}
+
 /// This is a approximate yet fast inverse square-root.
 inline float32 b2InvSqrt(float32 x)
 {

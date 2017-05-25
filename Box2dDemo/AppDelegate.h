@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "cocos2d.h"
+@interface AppDelegate : CCAppDelegate
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+- (void)configureCocos2d;
 
-@property (strong, nonatomic) UIWindow *window;
-
+- (void)configureFileUtilsSearchPathAndRegisterSpriteSheets;
 
 @end
 
