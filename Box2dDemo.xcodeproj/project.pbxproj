@@ -106,7 +106,6 @@
 		F0B081C91ED6E14B0019D641 /* CCGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B081721ED6E14B0019D641 /* CCGLView.m */; };
 		F0B081CA1ED6E14B0019D641 /* CCMetalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B081731ED6E14B0019D641 /* CCMetalSupport.m */; };
 		F0B081CB1ED6E14B0019D641 /* CCMetalView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B081761ED6E14B0019D641 /* CCMetalView.m */; };
-		F0B081CC1ED6E14B0019D641 /* CCShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = F0B081771ED6E14B0019D641 /* CCShaders.metal */; };
 		F0B081CD1ED6E14B0019D641 /* UITouch+CC.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B081791ED6E14B0019D641 /* UITouch+CC.m */; };
 		F0B081CE1ED6E14B0019D641 /* CCDirectorMac.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B0817C1ED6E14B0019D641 /* CCDirectorMac.m */; };
 		F0B081CF1ED6E14B0019D641 /* CCGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B0817E1ED6E14B0019D641 /* CCGLView.m */; };
@@ -123,6 +122,7 @@
 		F0B081DA1ED6E14B0019D641 /* NSThread+performBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B081951ED6E14B0019D641 /* NSThread+performBlock.m */; };
 		F0B081DB1ED6E14B0019D641 /* TGAlib.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B081971ED6E14B0019D641 /* TGAlib.m */; };
 		F0B081DC1ED6E14B0019D641 /* ZipUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B0819B1ED6E14B0019D641 /* ZipUtils.m */; };
+		F0B081DF1ED6E3B00019D641 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B081DE1ED6E3B00019D641 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -333,7 +333,6 @@
 		F0B081741ED6E14B0019D641 /* CCMetalSupport_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMetalSupport_Private.h; sourceTree = "<group>"; };
 		F0B081751ED6E14B0019D641 /* CCMetalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMetalView.h; sourceTree = "<group>"; };
 		F0B081761ED6E14B0019D641 /* CCMetalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMetalView.m; sourceTree = "<group>"; };
-		F0B081771ED6E14B0019D641 /* CCShaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = CCShaders.metal; sourceTree = "<group>"; };
 		F0B081781ED6E14B0019D641 /* UITouch+CC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITouch+CC.h"; sourceTree = "<group>"; };
 		F0B081791ED6E14B0019D641 /* UITouch+CC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITouch+CC.m"; sourceTree = "<group>"; };
 		F0B0817B1ED6E14B0019D641 /* CCDirectorMac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDirectorMac.h; sourceTree = "<group>"; };
@@ -368,6 +367,7 @@
 		F0B081991ED6E14B0019D641 /* utlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utlist.h; sourceTree = "<group>"; };
 		F0B0819A1ED6E14B0019D641 /* ZipUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipUtils.h; sourceTree = "<group>"; };
 		F0B0819B1ED6E14B0019D641 /* ZipUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZipUtils.m; sourceTree = "<group>"; };
+		F0B081DE1ED6E3B00019D641 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -375,6 +375,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0B081DF1ED6E3B00019D641 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +390,7 @@
 				F020141B1ED6DC3200FA3D51 /* Box2dDemo */,
 				F020141C1ED6DC3200FA3D51 /* Supporting Files */,
 				F020141A1ED6DC3200FA3D51 /* Products */,
+				F0B081DD1ED6E3B00019D641 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -705,7 +707,6 @@
 				F0B081741ED6E14B0019D641 /* CCMetalSupport_Private.h */,
 				F0B081751ED6E14B0019D641 /* CCMetalView.h */,
 				F0B081761ED6E14B0019D641 /* CCMetalView.m */,
-				F0B081771ED6E14B0019D641 /* CCShaders.metal */,
 				F0B081781ED6E14B0019D641 /* UITouch+CC.h */,
 				F0B081791ED6E14B0019D641 /* UITouch+CC.m */,
 			);
@@ -756,6 +757,14 @@
 				F0B0819B1ED6E14B0019D641 /* ZipUtils.m */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		F0B081DD1ED6E3B00019D641 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0B081DE1ED6E3B00019D641 /* libz.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -936,7 +945,6 @@
 				F0B080E71ED6E13C0019D641 /* b2EdgeShape.cpp in Sources */,
 				F0B081CD1ED6E14B0019D641 /* UITouch+CC.m in Sources */,
 				F0B081AD1ED6E14B0019D641 /* CCLayoutBox.m in Sources */,
-				F0B081CC1ED6E14B0019D641 /* CCShaders.metal in Sources */,
 				F0B080DF1ED6E13C0019D641 /* b2CollideEdge.cpp in Sources */,
 				F0B081C01ED6E14B0019D641 /* CCSpriteFrameCache.m in Sources */,
 				F0B081C51ED6E14B0019D641 /* cocos2d.m in Sources */,
@@ -1055,6 +1063,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2M4WW2KKY5;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"";
 				INFOPLIST_FILE = Box2dDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mobike.Box2dDemo;
@@ -1067,6 +1076,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2M4WW2KKY5;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"";
 				INFOPLIST_FILE = Box2dDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mobike.Box2dDemo;
